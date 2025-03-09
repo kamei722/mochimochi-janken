@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf4dd91bece8491ba569334140c7633, type: 3}
+  m_Name: TeaItem
+  m_EditorClassIdentifier: 
+  itemID: 2
+  itemName: tea
+  description: "\u4F7F\u7528\u6642\u306B\u76F8\u6027\u3092\u9006\u8EE2!!"
+  itemSprite: {fileID: 21300000, guid: 50fd684b26c2e420a9168fd31981c1b6, type: 3}
+  itemEffect: {fileID: 11400000, guid: 0c5540e8082bc452c8f37c7621c7ff23, type: 2}

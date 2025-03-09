@@ -1,0 +1,21 @@
+# Unity自動生成
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# IDE関連
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+
+# OS関連
+.DS_Store
