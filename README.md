@@ -15,8 +15,5 @@ Mochimochi Janken is a unique take on the traditional rock-paper-scissors game, 
 - Font: KF Himaji Fude (KFひま字ふで) - https://www.kfstudio.net
 - Background Music: BGMer - http://bgmer.net
 
-## Play the Game
-The game is available to play on my portfolio website: [Portfolio Link]
-
 ## License
 MIT License - See the [LICENSE](LICENSE) file for details.
