@@ -11,8 +11,8 @@ public class MenuParameterController : MonoBehaviour
 
     [Header("Score Goal UI")]
     public TMP_Text scoreGoalText;
-    private int[] scoreGoalOptions = { 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
-    private int scoreGoalIndex = 4;
+    private int[] scoreGoalOptions = { 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
+    private int scoreGoalIndex = 5;
 
     [Header("Time Limit UI")]
     public TMP_Text timeLimitText;

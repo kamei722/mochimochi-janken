@@ -17,7 +17,7 @@ public class RoundManager : MonoBehaviour
     public event Action OnTimeUp;
     public event Action<int> OnTimerUpdate; // 時間更新通知（-1は無制限）
 
-    public void Initialize(int timeLimit, int maxRounds = 20)
+    public void Initialize(int timeLimit, int maxRounds = 30)
     {
         this.timeLimit = timeLimit;
         this.maxRounds = maxRounds;
