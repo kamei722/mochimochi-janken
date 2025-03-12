@@ -2,6 +2,8 @@
 
 A rock-paper-scissors game with mochi (rice cake) characters featuring randomly generated matchup tables, developed in Unity 2022.3.42f1.
 
+**Language: Japanese**
+
 ![Gameplay Screenshot](screenshot/screenshot.png)
 
 ## Overview
