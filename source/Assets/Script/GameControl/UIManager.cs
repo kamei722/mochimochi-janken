@@ -54,7 +54,7 @@ public class UIManager : MonoBehaviour
     // プレイヤーがもちを選択したときのイベント
     public event Action<int> OnPlayerSelectMochi;
 
-       public void Initialize()
+    public void Initialize()
     {
         if (playerMochiImage != null) 
             playerMochiImage.gameObject.SetActive(false);
@@ -71,7 +71,19 @@ public class UIManager : MonoBehaviour
         if (computerMikanItemImage != null)
             computerMikanItemImage.gameObject.SetActive(false);
         
-        //Debug.Log("UIManager: Initialized");
+        if (resultText != null)
+        {
+            resultText.outlineWidth = 0.3f;  // アウトラインの太さ
+            resultText.outlineColor = new Color(1, 1, 1, 0.8f);  // 白い色（80%不透明）
+        }
+
+        if (roundText != null)
+        {
+            roundText.outlineWidth = 0.2f;  // アウトラインの太さ
+            roundText.outlineColor = new Color(1, 1, 1, 0.8f);  // 白い色（80%不透明）
+        }
+        
+     //Debug.Log("UIManager: Initialized");
     }
 
     private void HideButterflyImages()
@@ -176,15 +188,21 @@ public class UIManager : MonoBehaviour
 
     // テキスト表示更新
     public void SetRoundText(string text)
-    {
+    {   
+         // 可読性を高めるためにアウトラインを追加
         if (roundText != null)
+        {
             roundText.text = text;
+        }
     }
 
     public void SetResultText(string text)
-    {
+    {   
+        // 可読性を高めるためにアウトラインを追加
         if (resultText != null)
+        {
             resultText.text = text;
+        }
     }
 
     public void SetTimerText(int seconds)
