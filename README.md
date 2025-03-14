@@ -12,8 +12,6 @@ Mochimochi Janken is a unique take on the traditional rock-paper-scissors game, 
 
 ## Technical Implementation
 - Developed with Unity 2022.3.42f1 and C#
-- AI opponents with various difficulty settings
-- Responsive UI design
 
 ## Resources Used
 - Font: KF Himaji Fude (KFひま字ふで) - https://www.kfstudio.net
